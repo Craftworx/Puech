@@ -1,0 +1,34 @@
+d'abord git = logiciel à installer sur sa machine
+verifier git est là: 
+
+terminal: 
+git -- version
+
+pour créer un projet, on crée ou on choisir un répertoire
+(donc un projet par répertoire !)
+	git init
+pour vérifier: 
+	git status
+pour ajouter un commit
+	git add [nom de fichier]
+	git commit -m
+
+Questions:
+comment créer un distant repository (= dépôt distant) sur git hub ?
+
+	git remote add + url dépôt (à récupérer sur le site)
+
+
+puis
+	git push origin master (pour le mettre dessus)
+
+	git pull origin master 
+
+
+
+
+comment rapatrier un projet ? 
+comment ajouter un collaborateur ? 
+setting collaborateur
+
+comment voir les versions ? 
