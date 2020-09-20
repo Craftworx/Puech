@@ -19,6 +19,8 @@ pour ajouter un commit:
 	git add [nom de fichier][autre nom de fichier]
 	git commit - m "commentaires sur ce commitment particulier"
 
+remarque: j'ai eu des problèmes avec un nom de fichier qui avait des espaces et des accents
+
 Questions:
 
 comment créer un distant repository ?
@@ -28,6 +30,8 @@ Questions:
 comment créer un distant repository (= dépôt distant) sur git hub ?
 
 	git remote add + url dépôt (à récupérer sur le site)
+
+remarque: c'est intéressant de voir que parfois ça marche pas
 
 
 puis
