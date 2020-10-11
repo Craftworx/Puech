@@ -26,23 +26,16 @@ pour ajouter un commit:
 
 remarque: j'ai eu des problèmes avec un nom de fichier qui avait des espaces et des accents
 
-Questions:
+Ensuite, comment créer un distant repository (= dépôt distant) sur git hub ?
 
-comment créer un distant repository ?
+	lorsqu'on le crée: la commande est: 
 
-Questions:
-
-comment créer un distant repository (= dépôt distant) sur git hub ?
-
-	git remote add + url dépôt (à récupérer sur le site)
-
-remarque: c'est intéressant de voir que parfois ça marche pas
-
+	git remote add origin + URL dépôt (à récupérer sur le site)
 
 puis
 	git push origin master (pour le mettre dessus)
 
-	git pull origin master 
+	git pull origin master (pour le rechercher)
 
 
 
