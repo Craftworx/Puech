@@ -17,6 +17,11 @@ Pour vérifier:
 pour ajouter un commit:
 
 	git add [nom de fichier][autre nom de fichier]
+	 
+	ou bien encore mieux, pour ajouter tous les fichiers : 
+
+	git add . 
+
 	git commit - m "commentaires sur ce commitment particulier"
 
 remarque: j'ai eu des problèmes avec un nom de fichier qui avait des espaces et des accents
